@@ -21,7 +21,6 @@ app.use(cors({
     credentials:true
 }))
 app.use((req, res, next) => {
-    console.log("Middleware executed");
     next();
 });
 app.use("/api/v1/user", userRoute);
