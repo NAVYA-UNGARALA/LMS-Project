@@ -1,5 +1,5 @@
 import express from "express";
-import { getCourseProgress, markAsCompleted, markAsInCompleted, updateLectureProgress } from "../controllers/courseProgressController.js";
+import { getCourseProgress, markAsCompleted, markAsInCompleted, updateLectureProgress } from "../controllers/CourseProgressController.js";
 import isAuthenticated from "../middlewares/isAuthenticated.js";
 
 const router = express.Router();
