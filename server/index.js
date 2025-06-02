@@ -19,7 +19,7 @@ app.use(cookieParser())
 app.use(cors({
     origin: [
         "http://localhost:5173",
-        "https://lms-project-n1ir.onrender.com"
+        "https://lms-project-frontend-y286.onrender.com"
     ],
     credentials: true
 }));
