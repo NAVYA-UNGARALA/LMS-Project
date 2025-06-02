@@ -21,12 +21,9 @@ app.use(cors({
     credentials:true
 }))
 app.use((req, res, next) => {
-<<<<<<< HEAD
-=======
-    console.log("Middleware executed");
->>>>>>> d04544d (first-commit)
-    next();
-});
+    next()
+})
+
 app.use("/api/v1/user", userRoute);
 app.use("/api/v1/course", courseRoute);
 app.use("/api/v1/media", mediaRoute);
